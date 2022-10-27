@@ -1,0 +1,33 @@
+{
+  "name": "typescript-indepth",
+  "version": "1.0.0",
+  "description": "fully functional RESTful API with mongoose, typescript based in Node JS.",
+  "main": "src/server.ts",
+  "scripts": {
+    "build":"rm -rf build/ && tsc",
+    "start": "nodemon build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motola/typescript-indepth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motola/typescript-indepth/issues"
+  },
+  "homepage": "https://github.com/motola/typescript-indepth#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.4",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "typescript": "^4.8.4"
+  }
+}
